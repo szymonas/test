@@ -26,13 +26,13 @@
     addClickableHeader: function() {
       
       var newsContainer = $('.widget-news');
-      newsContainer.find('header .col-6').on("click", function(){
+      newsContainer.find('.header').on("click", function(){
         if( $(window).width() < 768 ) {
           var $clickedItem = $(this);
           if( !$clickedItem.hasClass('active') ) {
             var idTabToOpen = $clickedItem.attr('data-href');
             var $tabToOpen = newsContainer.find(idTabToOpen);
-            $tabToOpen.siblings('div').hide();
+            $tabToOpen.siblings('.news-content').hide();
             $tabToOpen.show();
             $clickedItem.siblings('div').removeClass('active');
             $clickedItem.addClass('active');
@@ -58,6 +58,9 @@
         previous: "<",
         next: ">",
         close: "close",
+        href: function() {
+            return $(this).attr("data-colorbox-href");
+        },
         onComplete: function(){
           var indexArray = $('#cboxCurrent').text().split("/");
           var currentPage =  indexArray[0].trim();
