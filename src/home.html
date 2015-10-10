@@ -1,0 +1,64 @@
+@@include('head.html', {"pagename": "Home"})
+
+<body>
+
+@@include('header.html')
+
+  <div class="content" id="content">
+    <p>Some stuff</p>
+    <section class="widget widget-news">
+      <header>
+        <div class="col-6 active" data-href="#products">X-Plosion Products</div>
+        <div class="col-6" data-href="#expansion">X-Plosion Expansion</div>
+      </header>
+        <div id="products" class="col-6">
+          <article>
+            <h4>We say NO to artificial flavors</h4>
+            <div class="image" rel="image" href="img/misc-article1.jpg" style="background-image: url('img/misc-article1.jpg');"></div>
+            <div class="description">
+              Lorem ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem ipsum has been the industry's standard dummy text over since the 1500s.
+              <a href="#">More<i class="icon icon-more"></i></a>
+            </div>
+          </article>
+          <article>
+            <h4>New flavour added</h4>
+            <div class="image" rel="image" href="img/misc-article2.jpg" style="background-image: url('img/misc-article2.jpg');"></div>
+            <div class="description">
+              Lorem ipsum is simply dummy text of the printing and type setting industry.
+              Lorem ipsum has been the industry's standard dummy text over since the 1500s.
+              <a href="#">More<i class="icon icon-more"></i></a>
+            </div>
+          </article>
+        </div>
+        <div id="expansion" class="col-6">
+          <article>
+            <h4>X-Plosion is a hit in Japan</h4>
+            <div class="image" rel="image" href="img/misc-article3.jpg" style="background-image: url('img/misc-article3.jpg');"></div>
+            <div class="description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              <a href="#">More<i class="icon icon-more"></i></a>
+            </div>
+          </article>
+          <article>
+            <h4>Danish elder hooked on X-Plosion</h4>
+            <div class="image" rel="image" href="img/misc-article4.jpg" style="background-image: url('img/misc-article4.jpg');"></div>
+            <div class="description">
+              Lorem ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem ipsum has been the industry's standard dummy text over since the 1500s.
+              <a href="#">More<i class="icon icon-more"></i></a>
+            </div>
+          </article>
+        </div>
+      
+    </section>
+  </div>
+  <!-- / content -->
+
+@@include('sidebar.html')
+@@include('footer.html')
+@@include('scripts.html')
+
+</body>
+</html>

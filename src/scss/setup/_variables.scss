@@ -1,0 +1,26 @@
+
+// Variables
+//------------------------------------------------------------------------------
+
+// Color definitions
+$color-red: #EF4C23;
+$color-brown: #97866f !default;
+$color-pink: #e61052;
+$color-dark-brown: #2a1f0f;
+
+// Container definitions
+$container-width: 960px !default;
+$container-padding: 20px !default;
+
+// Z-indexes
+$zindex-base: 1 !default;
+
+// Font definitions
+$font-arial: "Arial", "Helvetica Neue", Helvetica, serif !default;
+$font-size: 1.2em !default;
+$font-line-height: 1.4 !default;
+
+// Responsive
+$desktop-width: 992px;
+$tablet-width: 768px;
+$mobile-width: 400px;
