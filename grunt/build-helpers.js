@@ -39,6 +39,10 @@ module.exports = function(grunt) {
     'newer:imagemin:svgfallbacks',
     // optimize non-SVG images (GIF, PNG, JPG)
     'newer:imagemin:nosvg',
+    // generate & optimize sprites
+    'sprite:dist1x',
+    'sprite:dist2x',
+    'newer:imagemin:sprites',
     // copy other assets
     'newer:copy:assets'
   ]);

@@ -42,6 +42,15 @@ module.exports = function(grunt) {
         src: ['<%= xh.images %>/**/*.{png,jpg,gif}', '!**/.keep'],
         dest: '<%= xh.dist %>'
       }]
+    },
+    // sprite files
+    sprites: {
+      files: [{
+        expand: true,
+        cwd: '<%= xh.dist %>', // sprite files are in dist dir
+        src: ['img/common/{sprites,sprites@2x}.png'],
+        dest: '<%= xh.dist %>'
+      }]
     }
   });
 };

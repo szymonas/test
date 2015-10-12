@@ -1,0 +1,66 @@
+
+// Components - Widget
+//------------------------------------------------------------------------------
+
+.widget {
+  box-sizing:border-box;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 1px 1px 0 1px #ded6cc;
+  padding: 15px 15px 11px;
+  margin-bottom: 20px;
+  
+  h3 {
+    margin: 0 -15px 0;
+    padding: 0 15px 16px;
+    color: $color-pink;
+    text-transform: uppercase;
+    line-height: 16px;
+    border-width: 2px;
+    -webkit-border-image: url("../img/border-dots.png") 5 repeat;
+    -o-border-image: url("../img/border-dots.png") 5 repeat;
+    border-image: url("../img/border-dots.png") 5 repeat;
+    border-image-width: 0 0 1px 0;
+  }
+  
+  ul {
+    width: 100%;
+    padding: 0;
+    margin: 10px 0 0;
+    overflow: hidden;
+    list-style: none;
+    
+  }
+  
+  a {
+    display: block;
+        
+    i.icon {
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      margin-right: 4px;
+      background-repeat: no-repeat;
+      background-image: url("../img/sprite-social.jpg");
+    }
+        
+    span {
+      display: inline-block;
+      vertical-align: top;
+      line-height: 23px;
+    }
+        
+    i.facebook {
+      background-position: 0px 0px;
+    }
+        
+    i.twitter {
+      background-position: -23px 0px;
+    }
+        
+    i.gplus {
+      background-position: -46px 0px;
+    }
+        
+  }
+}

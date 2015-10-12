@@ -1,0 +1,26 @@
+
+// Components - Widget Follow Us
+//------------------------------------------------------------------------------
+
+.widget-follow-us {
+  padding: 15px 15px 16px;
+  overflow: hidden;
+    
+  ul {
+    margin-top: 20px;
+      
+    li {
+      float: left;
+      width: 33.3%;
+        
+      @include smallScreenMobile {  
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+    
+  a {
+    line-height: 12px;
+  }
+}

@@ -19,6 +19,7 @@ test is a Front-end project created with [XH Generator](https://github.com/xhtml
     - [Writing Syles](#writing-styles)
     - [LibSass Notices](#libsass-notices)
     - [Adding 3rd-party Dependency via Bower](#adding-3rd-party-dependency-via-bower)
+    - [Using Sprites](#using-sprites)
     - [Automatic SVG Fallbacks](#automatic-svg-fallbacks)
 
 ## Prerequisites
