@@ -11,7 +11,7 @@ module.exports = function(grunt) {
       destCss: '<%= xh.src %>/scss/setup/_sprites@1x.scss',
       cssTemplate: '<%= xh.src %>/scss/setup/_sprites.scss.mustache',
       algorithm: 'binary-tree',
-      engine: 'pngsmith',
+      engine: 'canvassmith',
       padding: 2,
       cssOpts: {
         map: 'sprite-1x'
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
       destCss: '<%= xh.src %>/scss/setup/_sprites@2x.scss',
       cssTemplate: '<%= xh.src %>/scss/setup/_sprites.scss.mustache',
       algorithm: 'binary-tree',
-      engine: 'pngsmith',
+      engine: 'canvassmith',
       padding: 4,
       cssOpts: {
         map: 'sprite-2x',

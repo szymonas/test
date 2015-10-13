@@ -34,33 +34,6 @@
   
   a {
     display: block;
-        
-    i.icon {
-      display: inline-block;
-      width: 22px;
-      height: 22px;
-      margin-right: 4px;
-      background-repeat: no-repeat;
-      background-image: url("../img/sprite-social.jpg");
-    }
-        
-    span {
-      display: inline-block;
-      vertical-align: top;
-      line-height: 23px;
-    }
-        
-    i.facebook {
-      background-position: 0px 0px;
-    }
-        
-    i.twitter {
-      background-position: -23px 0px;
-    }
-        
-    i.gplus {
-      background-position: -46px 0px;
-    }
-        
   }
+  
 }
